@@ -1,0 +1,62 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .Rectangle2 {
+        left: -125px;
+    }
+
+    .title h1 {
+        font-size: 51px;
+        line-height: 1.1;
+    }
+
+    .title {
+        margin: 90px 0;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+
+    .main-div {
+        text-align: center;
+    }
+
+    .title {
+        margin: 0 0 30px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .Rectangle2 {
+        position: inherit;
+        margin-top: 10px;
+    }
+
+    .service-area p {
+        margin-bottom: 30px;
+    }
+
+    .fa-link {
+        margin-top: 30px;
+    }
+
+    .other {
+        text-align: center;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
